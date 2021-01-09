@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-01-09T07:25:26.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.8" etag="C6-UiKGiFpB6NUhGiVJP" type="github"><diagram id="QHoWRKL4ebVMWTuD5d6k">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-09T07:46:15.986Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="zQ7q0yLIKVVtSL7ZIRZY" version="14.1.8" type="github">
+  <diagram id="QHoWRKL4ebVMWTuD5d6k" name="第 1 页">
+    <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;strokeWidth=3;" edge="1" parent="1" target="dPF1KNN2-wdo8xk07QdL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="180" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;fontSize=18;dashed=1;" edge="1" parent="1" source="dPF1KNN2-wdo8xk07QdL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-8" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="160" y="270" width="820" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-1" value="&lt;font style=&quot;font-size: 24px&quot;&gt;域名管理&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="215" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;流量包&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="415" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-3" value="&lt;font style=&quot;font-size: 24px&quot;&gt;刷新&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="605" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-6" value="&lt;font style=&quot;font-size: 24px&quot;&gt;数据查询&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="795" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-10" value="Dnspod解析" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-11" value="静态加速平台" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="330" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-12" value="对象存储" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-13" value="云函数" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="670" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-14" value="刷新" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="840" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-15" value="接入层" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="215" y="290" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-19" value="云API" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="475" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-21" value="服务端返回" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="990" y="370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dPF1KNN2-wdo8xk07QdL-28" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=3;fontSize=18;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="567" as="sourcePoint" />
+            <mxPoint x="580" y="497" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="557" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
