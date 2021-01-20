@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-20T14:49:23.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="AEow6P4XxTomzRN3VRJ1" version="14.2.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-01-20T14:50:00.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="jgYtHzlqEIr-A7QfrANK" version="14.2.4" type="github" pages="10">
   <diagram id="QHoWRKL4ebVMWTuD5d6k" name="第 1 页">
     <mxGraphModel dx="1422" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -990,6 +990,9 @@
       <root>
         <mxCell id="U9uEjpCBMGQJpSNW7HML-0" />
         <mxCell id="U9uEjpCBMGQJpSNW7HML-1" parent="U9uEjpCBMGQJpSNW7HML-0" />
+        <mxCell id="9aX4knFKwq67kCvku0OS-0" value="待迁移域名列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="130" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
