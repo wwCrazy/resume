@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T16:06:34.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="RSmVh5odowTfwnB7gkyE" version="14.2.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-22T16:11:06.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="SJnehalfcZOQ9mkir7jd" version="14.2.5" type="github" pages="11">
   <diagram id="QHoWRKL4ebVMWTuD5d6k" name="第 1 页">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1005,7 +1005,7 @@
         <mxCell id="9aX4knFKwq67kCvku0OS-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-0" target="9aX4knFKwq67kCvku0OS-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9aX4knFKwq67kCvku0OS-0" value="待迁移域名列表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
+        <mxCell id="9aX4knFKwq67kCvku0OS-0" value="待迁移域名信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
           <mxGeometry x="250" y="120" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9aX4knFKwq67kCvku0OS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-2" target="9aX4knFKwq67kCvku0OS-5" edge="1">
@@ -1046,7 +1046,7 @@
         <mxCell id="9aX4knFKwq67kCvku0OS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-15" target="9aX4knFKwq67kCvku0OS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9aX4knFKwq67kCvku0OS-15" value="通知TCB创建用户" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
+        <mxCell id="9aX4knFKwq67kCvku0OS-15" value="TCB创建用户" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
           <mxGeometry x="400" y="200" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9aX4knFKwq67kCvku0OS-17" value="否" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
@@ -1065,10 +1065,13 @@
           <mxGeometry x="281.25" y="660" width="47.5" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="pcWeseQPoEgiVbGBauCX-6" value="迁移过程中TCB控制台禁止操作" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
-          <mxGeometry x="60" y="305" width="180" height="45" as="geometry" />
+          <mxGeometry x="50" y="305" width="190" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="pcWeseQPoEgiVbGBauCX-8" value="创建成功后分配CNAME，解析至tcb平台，域名上线和解析生效需要时间，放入验证队列中" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;align=left;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
-          <mxGeometry x="60" y="390" width="180" height="70" as="geometry" />
+        <mxCell id="pcWeseQPoEgiVbGBauCX-8" value="创建成功后分配CNAME，解析至TCB平台，域名上线和解析生效需要时间，放入验证队列中" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;align=left;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="50" y="390" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pcWeseQPoEgiVbGBauCX-9" value="1).TCB将域名由泛域名解析改为子域名解析&lt;br&gt;2).解锁域名，用户可在控制台操作" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;align=left;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="50" y="550" width="190" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
