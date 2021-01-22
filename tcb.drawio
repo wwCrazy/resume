@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-22T15:55:55.990Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="1CDOT-qY7pjg3CWokHh1" version="14.2.5" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-01-22T16:06:34.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="RSmVh5odowTfwnB7gkyE" version="14.2.5" type="github" pages="11">
   <diagram id="QHoWRKL4ebVMWTuD5d6k" name="第 1 页">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1020,14 +1020,19 @@
         <mxCell id="9aX4knFKwq67kCvku0OS-5" value="创建域名" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
           <mxGeometry x="250" y="390" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9aX4knFKwq67kCvku0OS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-6" target="9aX4knFKwq67kCvku0OS-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9aX4knFKwq67kCvku0OS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9aX4knFKwq67kCvku0OS-6" value="验证队列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
           <mxGeometry x="250" y="480" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9aX4knFKwq67kCvku0OS-7" value="通知迁移结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
-          <mxGeometry x="250" y="660" width="110" height="50" as="geometry" />
+        <mxCell id="pcWeseQPoEgiVbGBauCX-3" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-7" target="pcWeseQPoEgiVbGBauCX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9aX4knFKwq67kCvku0OS-7" value="验证成功/失败通知TCB迁移结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
+          <mxGeometry x="250" y="570" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9aX4knFKwq67kCvku0OS-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-10" target="9aX4knFKwq67kCvku0OS-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1050,11 +1055,20 @@
         <mxCell id="9aX4knFKwq67kCvku0OS-20" value="是" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
           <mxGeometry x="270" y="260" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9aX4knFKwq67kCvku0OS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="U9uEjpCBMGQJpSNW7HML-1" source="9aX4knFKwq67kCvku0OS-27" target="9aX4knFKwq67kCvku0OS-7" edge="1">
+        <mxCell id="pcWeseQPoEgiVbGBauCX-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="U9uEjpCBMGQJpSNW7HML-1" source="pcWeseQPoEgiVbGBauCX-0" target="9aX4knFKwq67kCvku0OS-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9aX4knFKwq67kCvku0OS-27" value="验证队列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="U9uEjpCBMGQJpSNW7HML-1" vertex="1">
-          <mxGeometry x="250" y="570" width="110" height="50" as="geometry" />
+        <mxCell id="pcWeseQPoEgiVbGBauCX-0" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="281.25" y="40" width="47.5" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pcWeseQPoEgiVbGBauCX-2" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="281.25" y="660" width="47.5" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="pcWeseQPoEgiVbGBauCX-6" value="迁移过程中TCB控制台禁止操作" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="60" y="305" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="pcWeseQPoEgiVbGBauCX-8" value="创建成功后分配CNAME，解析至tcb平台，域名上线和解析生效需要时间，放入验证队列中" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;size=14;align=left;" vertex="1" parent="U9uEjpCBMGQJpSNW7HML-1">
+          <mxGeometry x="60" y="390" width="180" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
